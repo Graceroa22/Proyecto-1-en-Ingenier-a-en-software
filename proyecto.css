@@ -1,0 +1,143 @@
+/* Estilo general */
+body {
+    background: rgb(103, 153, 154);
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: calibri;
+    font-size: 120%;
+    box-sizing: border-box;
+}
+
+/* Barra de Menú */
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #ff9631;
+    padding: 10px;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    margin-right: auto;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu li {
+    margin: 0 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 12px;
+    transition: background-color 0.3s;
+}
+
+.menu a:hover {
+    background-color: #0062cd;
+}
+
+/* Contenido del Cuerpo */
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+}
+
+.card {
+    width: 150px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffeaad;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px #ff9631;
+}
+/* Preguntas simulador pagina 2*/
+* {
+    transition: all 0.3s;
+  }
+
+
+  .contenedor {
+    width: 98vw;
+    height: 97vh;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .encabezado {
+    position: relative;
+    background: white;
+    min-width: 300px;
+    width: 70%;
+    max-width: 600px;
+    padding: 10px;
+  }
+
+  .categoria {
+    opacity: 0.3;
+    text-align: left;
+  }
+
+  .pregunta {
+    padding: 10px;
+  }
+
+  .imagen {
+    object-fit: cover;
+    height: 0px;
+    width: 0px;
+  }
+
+  .btn {
+    background: white;
+    width: 60%;
+    max-width: 550px;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+  }
+
+  .btn:hover {
+    transform: scale(1.05);
+  }
+  
+  .numero{
+    position: absolute;
+    opacity:0.3;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .puntaje{
+    padding:10px;
+    color:white;
+  }
